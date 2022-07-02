@@ -1,6 +1,6 @@
 # CodeWars Python Solutions
 
----
+
 
 ## FIXME: Replace all dots
 
