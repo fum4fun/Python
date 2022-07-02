@@ -2,7 +2,7 @@
 
 ---
 
-## A Needle in the Haystack
+## FIXME: Replace all dots
 
 
 Definition
@@ -15,22 +15,20 @@ But it's not working properly.
 
 ### Given Code
 
-'''python
+```python
 import re
 def replace_dots(str):
     return re.sub(r".", "-", str)
-'''
-
+```
 
 ---
 
 ### Solution
 
-'''python
+```python
 def replace_dots(str):
     return str.replace(".", "-")
-'''
-
+```
 
 ---
 
