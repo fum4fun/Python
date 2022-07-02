@@ -12,13 +12,16 @@ If the wolf is the closest animal to you, return "Pls go away and stop eating my
 
 ### Given Code
 
+```Python
+
 def warn_the_sheep(queue):
     pass
+```
 
 ---
 
 ### Solution
-
+```Python
 def warn_the_sheep(queue):
     queue = queue[::-1]
     wolf_counter = None
@@ -28,7 +31,7 @@ def warn_the_sheep(queue):
     if wolf_counter == 0:
         return 'Pls go away and stop eating my sheep'
     return f'Oi! Sheep number {wolf_counter}! You are about to be eaten by a wolf!'
-
+```
 
 -------
 
