@@ -41,6 +41,12 @@ python3 manage.py makemigrations
 ```python
 python3 manage.py migrate
 ```
+9. Создание суперпользователя (аминистратора):
+```python
+python3 manage.py createsuperuser
+````
+
+
 
 **Установка Git:**
 ```python
