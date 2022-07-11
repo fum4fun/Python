@@ -15,7 +15,7 @@ sudo apt install python3
 1. Создать новый проект.
 2. Установить Django:
 ```python
-(pip install django
+pip install django
 ```
 3. Создать проект:
 ```python
