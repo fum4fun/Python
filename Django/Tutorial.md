@@ -7,6 +7,6 @@
 ```python
 pip install django
 ```
-## Полезные ссылки:
+**Полезные ссылки:**
 ---
 [Django Girls](https://tutorial.djangogirls.org/ru/)
