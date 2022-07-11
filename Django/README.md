@@ -21,6 +21,12 @@ pip install django
 ```python
 django-admin startproject projectname
 ```
+4. Запуск сервера:
+```python
+python3 manage.py runserver
+```
+5. Остановка сервера:
+CONTROL-C
 
 **Установка Git:**
 ```python
