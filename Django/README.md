@@ -11,6 +11,10 @@ python3 --version
 ```python
 sudo apt install python3
 ```
+3. В Pycharm:
+```python
+(venv) pip install django
+```
 
 **Установка Git:**
 ```python
