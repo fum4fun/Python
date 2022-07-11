@@ -11,7 +11,8 @@ python3 --version
 ```python
 sudo apt install python3
 ```
-3. В Pycharm:
+**3. В Pycharm:**
+1. Создать новый проект.
 ```python
 (venv) pip install django
 ```
