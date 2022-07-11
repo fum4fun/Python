@@ -31,7 +31,7 @@ CONTROL-C
 ```
 6. Создание нового приложения: 
 ```python
-python3 manage.py startapp main
+python3 manage.py startapp name
 ```
 
 **Установка Git:**
