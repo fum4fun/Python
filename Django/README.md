@@ -26,9 +26,9 @@ django-admin startproject projectname
 python3 manage.py runserver
 ```
 5. Остановка сервера:
-
+```
 CONTROL-C
-
+```
 6. Создание нового приложения: 
 ```python
 python3 manage.py startapp main
