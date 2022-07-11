@@ -37,6 +37,10 @@ python3 manage.py startapp name
 ```python
 python3 manage.py makemigrations
 ```
+8. Выполнить миграцию:
+```python
+python3 manage.py migrate
+```
 
 **Установка Git:**
 ```python
