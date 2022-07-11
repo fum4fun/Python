@@ -11,17 +11,18 @@ Write a function that takes an array of numbers and returns the sum of the numbe
 ---
 
 ### Given Code
-
+```python
 def sum_array(a):
   pass
+ ```
 
 ---
 
 ### Solution
-
+```python
 def sum_array(a):
   return sum(a)
-    
+```    
 
 
 -------
