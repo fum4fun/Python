@@ -33,6 +33,10 @@ CONTROL-C
 ```python
 python3 manage.py startapp name
 ```
+7. Создание миграции:
+```python
+python3 manage.py makemigrations
+```
 
 **Установка Git:**
 ```python
