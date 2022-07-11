@@ -12,7 +12,7 @@ python3 --version
 sudo apt install python3
 ```
 
-**Установка Git**
+**Установка Git:**
 ```python
 sudo apt install git
 ```
