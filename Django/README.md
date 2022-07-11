@@ -26,6 +26,7 @@ django-admin startproject projectname
 python3 manage.py runserver
 ```
 5. Остановка сервера:
+
 CONTROL-C
 
 **Установка Git:**
