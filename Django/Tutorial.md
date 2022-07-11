@@ -2,12 +2,20 @@
 ---
 ## Команды
 
-**1. Установка**
+**1. Проверка версии Python:**
 
 ```python
-pip install django
+python3 --version
+```
+**2. Установка Python:**
+```python
+sudo apt install python3
 ```
 
+**Установка Git**
+```python
+sudo apt install git
+```
 ---
 **Полезные ссылки:**
 
