@@ -28,12 +28,6 @@ Assume: margin >= 0
 Tip: Some languages have a way to make parameters optional.
 
 
-```Python
-find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
-```
-
-should return `"found the needle at position 5"`
-
 ---
 
 ### Given Code
