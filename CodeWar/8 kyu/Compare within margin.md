@@ -42,7 +42,6 @@ def close_compare(a, b, margin):
 
 ### Solution
 
-
 ```python
 def close_compare(a, b, margin=0):
     if a == b or abs(a - b) <= margin:
@@ -56,4 +55,4 @@ def close_compare(a, b, margin=0):
 ---
 
 
-[See on CodeWars.com](https://www.codewars.com/kata/56676e8fabd2d1ff3000000c)
+[See on CodeWars.com]((https://www.codewars.com/kata/56453a12fcee9a6c4700009c/train/python))
