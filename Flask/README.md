@@ -1,4 +1,4 @@
-*Flask
+#Flask
 ---
 1. Установка виртуальной среды:
 ```python
@@ -7,6 +7,7 @@ sudo apt-get install python-virtualenv
 sudo pip install virtualenv
 ```
 (разные варианты)
+
 2.Создать папку для проекта:
 ```python
 $ mkdir myproject
