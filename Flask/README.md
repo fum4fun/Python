@@ -1,5 +1,29 @@
 #Flask
 ---
+Установите pyenv с помощью pyenv-installer
+```
+curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
+```
+добавить в 
+```
+nano ~/bash.profile
+```
+```
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || 
+export PATH="$PYENV_ROOT/bin:$PATH" eval "$(pyenv init -)"
+```
+Обновить pyenv
+```
+pyenv update
+```
+Удалить pyenv
+```
+rm -fr ~/.pyenv
+```
+Затем удалите в .bash
+
+
 1. Установка виртуальной среды:
 ```python
 sudo apt install python3-venv
