@@ -63,9 +63,12 @@ sudo pip install virtualenv
 ```python
 $ mkdir myproject
 $ cd myproject
-$ virtualenv venv
+
 ```
 3.Запуск виртуальной среды:
+```python
+virtualenv venv
+```
 ```python
 . venv/bin/activate
 ```
