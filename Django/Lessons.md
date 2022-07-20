@@ -31,7 +31,7 @@ django-admin startproject lessite
 ```
 cd lessite
 ```
-10. Запустить тестовый сервер
+10. Запустить тестовый сервер (при запуске можно указать порт: ... runserver 4000) 
 ```
 python3 manage.py runserver
 ```
