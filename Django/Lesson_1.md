@@ -39,3 +39,7 @@ python3 manage.py runserver
 ```
 CONTROL-C
 ```
+---
+
+
+[Видео урока](https://www.youtube.com/watch?v=FyTL1bnUx5I&list=PLA0M1Bcd0w8xO_39zZll2u1lz_Q-Mwn1F&index=1&t=362s)
