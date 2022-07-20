@@ -42,6 +42,13 @@ python3 manage.py runserver
 ```
 CONTROL-C
 ```
+12. Создание нового приложения в папке lessite (main - заменить название на свое)
+```
+python3 manage.py startapp main
+```
+13. Обметить lessite как root (пкм/Mark Directory as/ Sources Root)(в случае неполадок)
+
+
 ---
 
 
