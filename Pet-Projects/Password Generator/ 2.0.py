@@ -1,6 +1,3 @@
-## Password Generator
-
-```python
 import random
 import string
 
@@ -20,4 +17,4 @@ def generate_password(*args):
 
 n = int(input('Длина пароля: '))
 print(generate_password())
-```
+
