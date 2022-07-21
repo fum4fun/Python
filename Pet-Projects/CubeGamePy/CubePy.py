@@ -1,4 +1,3 @@
-```
 from tkinter import *
 import random, time
 
@@ -34,4 +33,4 @@ root.bind('<1>', img)
 img('event')
 root.mainloop()
 
-```
+
