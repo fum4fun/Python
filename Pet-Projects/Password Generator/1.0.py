@@ -1,5 +1,3 @@
-## Password Generator
-```pyton
 import random
 
 
@@ -14,4 +12,4 @@ num = int(input('Длина пароля: \n '))
 col = int(input('Количество паролей: \n '))
 for i in range(col):
     print(f'Пароль № {i+1}: ', ran_pas())
-```
+
