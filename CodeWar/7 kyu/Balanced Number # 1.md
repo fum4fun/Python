@@ -81,7 +81,7 @@ def balanced_num(number):
 
 ---
 
-### Solution 1
+### Solution 
 
 
 ```python
@@ -100,32 +100,6 @@ def balanced_num(number):
         else:
             return "Not Balanced"
 ```
-
----
-
-### Solution 2
-
-
-```python
-def balanced_num(number):
-    return '%sBalanced' % ( 'Not ' if (sum(int(e) for e in str(number)[:(len(str(number))+1)//2-1]) !=  sum(int(e) for e in str(number)[(len(str(number)))//2+1:])) else '' )
-```
-
-
----
-
-### Solution 3
-
-
-```python
-def balanced_num(number):
-    s = str(n)
-    l = (len(s)-1)//2
-    same = len(s) < 3 or sum(map(int, s[:l])) == sum(map(int, s[-l:]))
-    return "Balanced" if same else "Not Balanced"
-```
-
-
 
 ---
 
