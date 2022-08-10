@@ -1,4 +1,3 @@
-```
 import requests
 import fake_useragent
 from bs4 import BeautifulSoup
@@ -56,4 +55,3 @@ print(len(data))
 header = ['name', 'year', 'country', 'link']
 df = pd.DataFrame(data, columns=header)
 df.to_csv('./anime.csv', sep=';', encoding='utf-8')
-```
