@@ -1,4 +1,3 @@
-```
 from time import sleep
 import requests
 import fake_useragent
@@ -9,34 +8,25 @@ import csv
 ua = fake_useragent.UserAgent()
 
 headers = {'User-Agent': ua.random, "Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3"}
-#
-# url = 'https://health-diet.ru/table_calorie/?utm_source=leftMenu&utm_medium=table_calorie'
-#
-# req = requests.get(url, headers=headers)
-# src = req.text
-# #print(src)
-#
-# # save page in file
-# with open('./data/index.html', 'w') as file:
-#     file.write(src)
 
-# # call page
-# with open('./data/index.html') as file:
-#     src = file.read()
-#
-# soup = BeautifulSoup(src, 'lxml')
-# all_products_hrefs = soup.find_all(class_='mzr-tc-group-item-href')
-#
-# all_categories_dict = {}
-# for item in all_products_hrefs:
-#     item_text = item.text
-#     item_href = 'https://health-diet.ru' + item.get('href')
-#
-#     all_categories_dict[item_text] = item_href
-#
-# # save dict to json
-# with open('./data/all_categories_dict.json', 'w') as file:
-#     json.dump(all_categories_dict, file, indent=4, ensure_ascii=False)
+url = 'https://health-diet.ru/table_calorie/?utm_source=leftMenu&utm_medium=table_calorie'
+
+req = requests.get(url, headers=headers)
+src = req.text
+
+soup = BeautifulSoup(src, 'lxml')
+all_products_hrefs = soup.find_all(class_='mzr-tc-group-item-href')
+
+all_categories_dict = {}
+for item in all_products_hrefs:
+    item_text = item.text
+    item_href = 'https://health-diet.ru' + item.get('href')
+
+    all_categories_dict[item_text] = item_href
+
+
+with open('./data/all_categories_dict.json', 'w') as file:
+    json.dump(all_categories_dict, file, indent=4, ensure_ascii=False)
 
 with open('./data/all_categories_dict.json') as file:
     all_categories = json.load(file)
@@ -46,7 +36,6 @@ count = 0
 print(f'Всего итераций: {iteration_count}')
 
 for category_name, category_href in all_categories.items():
-
 
     rep = [',', ' ', '-']
     for item in rep:
@@ -140,5 +129,3 @@ for category_name, category_href in all_categories.items():
 
 
 
-
-```
